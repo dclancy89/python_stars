@@ -1,6 +1,8 @@
 def stars(arr):
 	for x in arr:
 		output = ""
+
+		#check the type of the list value
 		if type(x) is int:
 			for i in range(x):
 				output += "*"
